@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border;
+    font-family: "Syne", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.orange-txt {
+    color: orangered;
+    font-size: 2.8rem;
+}
+
+body {
+    background: rgb(249, 247, 235);
+}
+
+a {
+    text-decoration: none;
+}
+
+.content-container {
+    width:60%;
+    margin: 0 auto;
+    max-width: 1600px;
+}
+
+
+.intro {
+    padding-top: 8rem;
+}
+
+
+.intro h1 {
+    font-size: 3rem;
+}
+
+.author {
+    font-size: 1.2rem;
+    margin: 2rem 0;
+}
+
+.author a {
+    color: orangered;
+}
+
+p {
+    font-size: 1.3rem;
+    line-height: 1.8;
+    color: grey;
+    margin-bottom: 2rem;
+}
+
+p a {
+    color: orangered;
+}
+
+
+hr {
+    margin: 1srem 0;
+    opacity: .5;
+}
+
+
+.documentation {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    padding: 4rem 0;
+}
+
+
+.documentation-request__name {
+    font-size: 2rem;
+}
+
+.documentation-request__description {
+    opacity: .6;
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+
+.documentation-request__example-title {
+    width: fit-content;
+    padding: .6rem;
+    border-radius: 10px;
+    background: orangered;
+    color: white;
+    margin: 3rem 0 2rem 0;
+    font-size: 1rem;
+}
+
+.documentation-request__example-url {
+    background: rgba(0,0,0,0.05);
+    padding: 1.4rem 1rem;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    color: orangered;
+}
+
+.documentation-request__example-url span {
+    color: #222;
+}
